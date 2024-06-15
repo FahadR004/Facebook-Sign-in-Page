@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Klavika_Medium;
+    src: url(KlavikaMedium-TF.otf);
+}
+
+@font-face {
+    font-family: Klavika_Regular;
+    src: url(KlavikaRegular-TF.otf);
+}
+
+h1 {
+    margin-bottom: 0;
+    color: #0068fe;
+    font-size: 60px;
+    font-family: Klavika_Medium;
+}
+
+body {
+    background-color: #eff2f5;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 158px 0;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 150px;
+}
+
+.left-section {
+    margin-top: 0;
+    margin-right: 27px;
+    font-family: Klavika_Regular, serif;
+    width: 500px;
+}
+
+.right-section {
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+    width: 400px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px #d3d6d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input, button, label, a {
+    display: block;
+    margin: 15px auto;
+}
+
+input {
+    padding: 15px;
+    width: 85%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #f0f1f2;
+}
+
+
+.log_in {
+    padding: 10px;
+    width: 90%;
+    background-color: #0068fe;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.log_in:hover {
+    background-color: #025bd8;
+}
+
+.password {
+    margin: 21px auto;
+}
+
+.line {
+    margin: 0 5px;
+    background-color: #eeeeef;
+    border: 0;
+    height: 1px;
+
+}
+
+.create_btn {
+    background-color: #04bc3e;
+    padding: 17px 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin: 30px auto 20px auto;
+}
+
+.create_btn:hover {
+    background-color: #019931;
+}
+
+.last-line {
+    text-align: center;
+    margin: 20px 0 0 50px;
+}
+
+a {
+    color:#0068fe;
+    text-decoration: none;
+}
+
+a:clicked {
+    color: #0068fe;
+}
